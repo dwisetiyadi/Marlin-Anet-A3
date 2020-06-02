@@ -29,8 +29,8 @@
 #define X_DIAG_PIN           P1_29   // X-
 #define Y_DIAG_PIN           P1_27   // Y-
 #define Z_DIAG_PIN           P1_25   // Z-
-#define E0_DIAG_PIN          P1_28   // X+
-#define E1_DIAG_PIN          P1_26   // Y+
+// #define E0_DIAG_PIN          P1_28   // X+
+// #define E1_DIAG_PIN          P1_26   // Y+
 
 /**
  * Limit Switches
@@ -44,7 +44,7 @@
   #endif
 #else
   #define X_MIN_PIN          P1_29   // X-
-  #define X_MAX_PIN          P1_28   // X+
+  // #define X_MAX_PIN          P1_28   // X+
 #endif
 
 #if Y_STALL_SENSITIVITY
@@ -55,7 +55,7 @@
     #define Y_MIN_PIN        P1_26   // Y+
   #endif
 #else
-  #define Y_MIN_PIN          P1_27   // Y-
+  // #define Y_MIN_PIN          P1_27   // Y-
   #define Y_MAX_PIN          P1_26   // Y+
 #endif
 
@@ -67,7 +67,7 @@
     #define Z_MIN_PIN        P1_24   // Z+
   #endif
 #else
-  #define Z_MIN_PIN          P1_25   // Z-
+  // #define Z_MIN_PIN          P1_25   // Z-
   #define Z_MAX_PIN          P1_24   // Z+
 #endif
 
@@ -218,7 +218,7 @@
 
   #if ENABLED(ANET_FULL_GRAPHICS_LCD)
 
-    #error "CAUTION! ANET_FULL_GRAPHICS_LCD requires wiring modifications. See 'pins_BTT_SKR_V1_3.h' for details. Comment out this line to continue."
+    // #error "CAUTION! ANET_FULL_GRAPHICS_LCD requires wiring modifications. See 'pins_BTT_SKR_V1_3.h' for details. Comment out this line to continue."
 
    /**
     * 1. Cut the tab off the LCD connector so it can be plugged into the "EXP1" connector the other way.
