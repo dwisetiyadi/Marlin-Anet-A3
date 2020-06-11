@@ -1908,7 +1908,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 
 //
 // ReprapWorld Graphical LCD
@@ -2002,7 +2002,7 @@
 // A clone of the RepRapDiscount full graphics display but with
 // different pins/wiring (see pins_ANET_10.h).
 //
-#define ANET_FULL_GRAPHICS_LCD
+//#define ANET_FULL_GRAPHICS_LCD
 
 //
 // AZSMZ 12864 LCD with SD
